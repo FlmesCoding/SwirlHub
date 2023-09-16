@@ -10,7 +10,7 @@ elseif placeId == 142823291 then --murder mystery 2
     loadstring(game:HttpGet('https://raw.githubusercontent.com/FlmesCoding/SwirlHub/main/Protected_3969409895346508.lua'))()
 
 elseif placeId == 621129760 then -- Kat
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlmesCoding/SwirlHub/main/Protected_3211573873716517.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlmesCoding/SwirlHub/main/KAT.lua'))()
 
 elseif placeId == 9359839118 then -- Zach Station
     loadstring(game:HttpGet('https://raw.githubusercontent.com/FlmesCoding/SwirlHub/main/Protected_3868888160167116.lua'))()
