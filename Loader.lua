@@ -14,6 +14,9 @@ elseif placeId == 621129760 then -- Kat
 
 elseif placeId == 9359839118 then -- Zach Station
     loadstring(game:HttpGet('https://raw.githubusercontent.com/FlmesCoding/SwirlHub/main/Protected_3868888160167116.lua'))()
+    
+elseif placeId == 13772394625 then -- Blade Ball
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlmesCoding/SwirlHub/main/Key%20System%20Obf/BladeBallKey.lua'))()
 
 else
     warn("No specific script found for this game!")
