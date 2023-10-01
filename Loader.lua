@@ -21,6 +21,9 @@ elseif placeId == 13772394625 then -- Blade Ball
 elseif placeId == 13529953420 then -- Money Race
     loadstring(game:HttpGet('https://raw.githubusercontent.com/FlmesCoding/SwirlHub/main/Money%20Race.lua'))()
 
+elseif placeId == 1962086868 then -- Tower of hell
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlmesCoding/SwirlHub/main/TOH.lua'))()
+
 else
     warn("No specific script found for this game!")
     Notify({
