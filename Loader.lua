@@ -25,13 +25,10 @@ elseif placeId == 1962086868 then -- Tower of hell
     loadstring(game:HttpGet('https://raw.githubusercontent.com/FlmesCoding/SwirlHub/main/TOH.lua'))()
 
 else
-    warn("No specific script found for this game! Loading universal script...")
+    warn("No specific script found for this game!")
     Notify({
         Title = "Unsupported Game",
-        Description = "This game isn't directly supported by the script. Ensure you're in the right game or await future updates."
+        Description = "This game isn't directly supported by the script. Ensure you're in the right game or await future updates.",
         Duration = 50
     });
-
 end
-
-
