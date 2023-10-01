@@ -18,6 +18,9 @@ elseif placeId == 9359839118 then -- Zach Station
 elseif placeId == 13772394625 then -- Blade Ball
     loadstring(game:HttpGet('https://raw.githubusercontent.com/FlmesCoding/SwirlHub/main/Key%20System%20Obf/BladeBallKey.lua'))()
 
+elseif placeId == 13529953420 then -- Money Race
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlmesCoding/SwirlHub/main/Money%20Race.lua'))()
+
 else
     warn("No specific script found for this game!")
     Notify({
