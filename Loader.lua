@@ -28,12 +28,10 @@ else
     warn("No specific script found for this game! Loading universal script...")
     Notify({
         Title = "Unsupported Game",
-        Description = "This game isn't directly supported by the script. Ensure you're in the right game or await future updates. Meanwhile, use the loaded GUI to teleport to a supported game."
+        Description = "This game isn't directly supported by the script. Ensure you're in the right game or await future updates."
         Duration = 50
     });
-    
-    -- Loading your universal script
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlmesCoding/SwirlHub/main/Universal.lua'))()
+
 end
 
 
